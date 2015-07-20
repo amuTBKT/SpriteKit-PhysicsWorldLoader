@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1F7FB9C1B5D6FB00056CDA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FB9B1B5D6FB00056CDA3 /* main.m */; };
+		D1F7FB9F1B5D6FB00056CDA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FB9E1B5D6FB00056CDA3 /* AppDelegate.m */; };
+		D1F7FBA21B5D6FB00056CDA3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBA11B5D6FB00056CDA3 /* GameScene.m */; };
+		D1F7FBA41B5D6FB00056CDA3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBA31B5D6FB00056CDA3 /* GameScene.sks */; };
+		D1F7FBA71B5D6FB00056CDA3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBA61B5D6FB00056CDA3 /* GameViewController.m */; };
+		D1F7FBAA1B5D6FB00056CDA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBA81B5D6FB00056CDA3 /* Main.storyboard */; };
+		D1F7FBAC1B5D6FB00056CDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBAB1B5D6FB00056CDA3 /* Images.xcassets */; };
+		D1F7FBAF1B5D6FB00056CDA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBAD1B5D6FB00056CDA3 /* LaunchScreen.xib */; };
+		D1F7FBBB1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBBA1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1F7FBB51B5D6FB00056CDA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1F7FB8E1B5D6FB00056CDA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1F7FB951B5D6FB00056CDA3;
+			remoteInfo = "Physics World Loader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1F7FB961B5D6FB00056CDA3 /* Physics World Loader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physics World Loader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F7FB9A1B5D6FB00056CDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F7FB9B1B5D6FB00056CDA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F7FB9D1B5D6FB00056CDA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1F7FB9E1B5D6FB00056CDA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1F7FBA01B5D6FB00056CDA3 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D1F7FBA11B5D6FB00056CDA3 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D1F7FBA31B5D6FB00056CDA3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D1F7FBA51B5D6FB00056CDA3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D1F7FBA61B5D6FB00056CDA3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D1F7FBA91B5D6FB00056CDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1F7FBAB1B5D6FB00056CDA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1F7FBAE1B5D6FB00056CDA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D1F7FBB41B5D6FB00056CDA3 /* Physics World LoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics World LoaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F7FBB91B5D6FB00056CDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F7FBBA1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Physics_World_LoaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F7FB931B5D6FB00056CDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F7FBB11B5D6FB00056CDA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1F7FB8D1B5D6FAF0056CDA3 = {
+			isa = PBXGroup;
+			children = (
+				D1F7FB981B5D6FB00056CDA3 /* Physics World Loader */,
+				D1F7FBB71B5D6FB00056CDA3 /* Physics World LoaderTests */,
+				D1F7FB971B5D6FB00056CDA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F7FB971B5D6FB00056CDA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7FB961B5D6FB00056CDA3 /* Physics World Loader.app */,
+				D1F7FBB41B5D6FB00056CDA3 /* Physics World LoaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F7FB981B5D6FB00056CDA3 /* Physics World Loader */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7FB9D1B5D6FB00056CDA3 /* AppDelegate.h */,
+				D1F7FB9E1B5D6FB00056CDA3 /* AppDelegate.m */,
+				D1F7FBA01B5D6FB00056CDA3 /* GameScene.h */,
+				D1F7FBA11B5D6FB00056CDA3 /* GameScene.m */,
+				D1F7FBA31B5D6FB00056CDA3 /* GameScene.sks */,
+				D1F7FBA51B5D6FB00056CDA3 /* GameViewController.h */,
+				D1F7FBA61B5D6FB00056CDA3 /* GameViewController.m */,
+				D1F7FBA81B5D6FB00056CDA3 /* Main.storyboard */,
+				D1F7FBAB1B5D6FB00056CDA3 /* Images.xcassets */,
+				D1F7FBAD1B5D6FB00056CDA3 /* LaunchScreen.xib */,
+				D1F7FB991B5D6FB00056CDA3 /* Supporting Files */,
+			);
+			path = "Physics World Loader";
+			sourceTree = "<group>";
+		};
+		D1F7FB991B5D6FB00056CDA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7FB9A1B5D6FB00056CDA3 /* Info.plist */,
+				D1F7FB9B1B5D6FB00056CDA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1F7FBB71B5D6FB00056CDA3 /* Physics World LoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7FBBA1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m */,
+				D1F7FBB81B5D6FB00056CDA3 /* Supporting Files */,
+			);
+			path = "Physics World LoaderTests";
+			sourceTree = "<group>";
+		};
+		D1F7FBB81B5D6FB00056CDA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F7FBB91B5D6FB00056CDA3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F7FB951B5D6FB00056CDA3 /* Physics World Loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F7FBBE1B5D6FB00056CDA3 /* Build configuration list for PBXNativeTarget "Physics World Loader" */;
+			buildPhases = (
+				D1F7FB921B5D6FB00056CDA3 /* Sources */,
+				D1F7FB931B5D6FB00056CDA3 /* Frameworks */,
+				D1F7FB941B5D6FB00056CDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Physics World Loader";
+			productName = "Physics World Loader";
+			productReference = D1F7FB961B5D6FB00056CDA3 /* Physics World Loader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1F7FBB31B5D6FB00056CDA3 /* Physics World LoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F7FBC11B5D6FB00056CDA3 /* Build configuration list for PBXNativeTarget "Physics World LoaderTests" */;
+			buildPhases = (
+				D1F7FBB01B5D6FB00056CDA3 /* Sources */,
+				D1F7FBB11B5D6FB00056CDA3 /* Frameworks */,
+				D1F7FBB21B5D6FB00056CDA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1F7FBB61B5D6FB00056CDA3 /* PBXTargetDependency */,
+			);
+			name = "Physics World LoaderTests";
+			productName = "Physics World LoaderTests";
+			productReference = D1F7FBB41B5D6FB00056CDA3 /* Physics World LoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F7FB8E1B5D6FB00056CDA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Amit Kumar Mehar";
+				TargetAttributes = {
+					D1F7FB951B5D6FB00056CDA3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D1F7FBB31B5D6FB00056CDA3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D1F7FB951B5D6FB00056CDA3;
+					};
+				};
+			};
+			buildConfigurationList = D1F7FB911B5D6FB00056CDA3 /* Build configuration list for PBXProject "Physics World Loader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1F7FB8D1B5D6FAF0056CDA3;
+			productRefGroup = D1F7FB971B5D6FB00056CDA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F7FB951B5D6FB00056CDA3 /* Physics World Loader */,
+				D1F7FBB31B5D6FB00056CDA3 /* Physics World LoaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1F7FB941B5D6FB00056CDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F7FBAF1B5D6FB00056CDA3 /* LaunchScreen.xib in Resources */,
+				D1F7FBAC1B5D6FB00056CDA3 /* Images.xcassets in Resources */,
+				D1F7FBA41B5D6FB00056CDA3 /* GameScene.sks in Resources */,
+				D1F7FBAA1B5D6FB00056CDA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F7FBB21B5D6FB00056CDA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F7FB921B5D6FB00056CDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F7FBA71B5D6FB00056CDA3 /* GameViewController.m in Sources */,
+				D1F7FB9F1B5D6FB00056CDA3 /* AppDelegate.m in Sources */,
+				D1F7FBA21B5D6FB00056CDA3 /* GameScene.m in Sources */,
+				D1F7FB9C1B5D6FB00056CDA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F7FBB01B5D6FB00056CDA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F7FBBB1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1F7FBB61B5D6FB00056CDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1F7FB951B5D6FB00056CDA3 /* Physics World Loader */;
+			targetProxy = D1F7FBB51B5D6FB00056CDA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1F7FBA81B5D6FB00056CDA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F7FBA91B5D6FB00056CDA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1F7FBAD1B5D6FB00056CDA3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F7FBAE1B5D6FB00056CDA3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1F7FBBC1B5D6FB00056CDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1F7FBBD1B5D6FB00056CDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F7FBBF1B5D6FB00056CDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Physics World Loader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1F7FBC01B5D6FB00056CDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Physics World Loader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D1F7FBC21B5D6FB00056CDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physics World LoaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics World Loader.app/Physics World Loader";
+			};
+			name = Debug;
+		};
+		D1F7FBC31B5D6FB00056CDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physics World LoaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physics World Loader.app/Physics World Loader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F7FB911B5D6FB00056CDA3 /* Build configuration list for PBXProject "Physics World Loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F7FBBC1B5D6FB00056CDA3 /* Debug */,
+				D1F7FBBD1B5D6FB00056CDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F7FBBE1B5D6FB00056CDA3 /* Build configuration list for PBXNativeTarget "Physics World Loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F7FBBF1B5D6FB00056CDA3 /* Debug */,
+				D1F7FBC01B5D6FB00056CDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1F7FBC11B5D6FB00056CDA3 /* Build configuration list for PBXNativeTarget "Physics World LoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F7FBC21B5D6FB00056CDA3 /* Debug */,
+				D1F7FBC31B5D6FB00056CDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F7FB8E1B5D6FB00056CDA3 /* Project object */;
+}

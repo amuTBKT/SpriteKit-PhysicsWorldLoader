@@ -16,6 +16,9 @@
 		D1F7FBAC1B5D6FB00056CDA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBAB1B5D6FB00056CDA3 /* Images.xcassets */; };
 		D1F7FBAF1B5D6FB00056CDA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBAD1B5D6FB00056CDA3 /* LaunchScreen.xib */; };
 		D1F7FBBB1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBBA1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m */; };
+		D1F7FBC81B5D70150056CDA3 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBC51B5D70150056CDA3 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1F7FBC91B5D70150056CDA3 /* WorldLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F7FBC71B5D70150056CDA3 /* WorldLoader.m */; };
+		D1F7FBCB1B5D705B0056CDA3 /* scene.json in Resources */ = {isa = PBXBuildFile; fileRef = D1F7FBCA1B5D705B0056CDA3 /* scene.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,11 @@
 		D1F7FBB41B5D6FB00056CDA3 /* Physics World LoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physics World LoaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F7FBB91B5D6FB00056CDA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1F7FBBA1B5D6FB00056CDA3 /* Physics_World_LoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Physics_World_LoaderTests.m; sourceTree = "<group>"; };
+		D1F7FBC41B5D70150056CDA3 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D1F7FBC51B5D70150056CDA3 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		D1F7FBC61B5D70150056CDA3 /* WorldLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldLoader.h; sourceTree = "<group>"; };
+		D1F7FBC71B5D70150056CDA3 /* WorldLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldLoader.m; sourceTree = "<group>"; };
+		D1F7FBCA1B5D705B0056CDA3 /* scene.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scene.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,10 @@
 		D1F7FB981B5D6FB00056CDA3 /* Physics World Loader */ = {
 			isa = PBXGroup;
 			children = (
+				D1F7FBC41B5D70150056CDA3 /* JSONKit.h */,
+				D1F7FBC51B5D70150056CDA3 /* JSONKit.m */,
+				D1F7FBC61B5D70150056CDA3 /* WorldLoader.h */,
+				D1F7FBC71B5D70150056CDA3 /* WorldLoader.m */,
 				D1F7FB9D1B5D6FB00056CDA3 /* AppDelegate.h */,
 				D1F7FB9E1B5D6FB00056CDA3 /* AppDelegate.m */,
 				D1F7FBA01B5D6FB00056CDA3 /* GameScene.h */,
@@ -106,6 +118,7 @@
 			children = (
 				D1F7FB9A1B5D6FB00056CDA3 /* Info.plist */,
 				D1F7FB9B1B5D6FB00056CDA3 /* main.m */,
+				D1F7FBCA1B5D705B0056CDA3 /* scene.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -209,6 +222,7 @@
 			files = (
 				D1F7FBAF1B5D6FB00056CDA3 /* LaunchScreen.xib in Resources */,
 				D1F7FBAC1B5D6FB00056CDA3 /* Images.xcassets in Resources */,
+				D1F7FBCB1B5D705B0056CDA3 /* scene.json in Resources */,
 				D1F7FBA41B5D6FB00056CDA3 /* GameScene.sks in Resources */,
 				D1F7FBAA1B5D6FB00056CDA3 /* Main.storyboard in Resources */,
 			);
@@ -232,6 +246,8 @@
 				D1F7FB9F1B5D6FB00056CDA3 /* AppDelegate.m in Sources */,
 				D1F7FBA21B5D6FB00056CDA3 /* GameScene.m in Sources */,
 				D1F7FB9C1B5D6FB00056CDA3 /* main.m in Sources */,
+				D1F7FBC81B5D70150056CDA3 /* JSONKit.m in Sources */,
+				D1F7FBC91B5D70150056CDA3 /* WorldLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
